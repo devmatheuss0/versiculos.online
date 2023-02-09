@@ -1,0 +1,92 @@
+body {
+    background-image: url('luso.gif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 1280px;
+   
+}
+
+.vers{
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+  
+
+ 
+}
+#verstxt{
+  
+        text-align: center;
+        margin:10px;
+        width: auto;
+        height: auto;
+        margin-top: 70px;
+        position: absolute;
+        left: 650px;
+
+        
+}
+#paltxt{
+    text-align: center;
+        width: 500px;
+        height: auto;
+        text-align:right;
+        position: absolute;
+        top:100px;
+        left: 450px;
+}
+
+   
+
+#pergunta{
+    text-align: left;
+    position: absolute;
+    top: 680px;
+   left: 50px;
+}
+ #yes{
+    position: absolute;
+    top: 730px;
+    left: 190px;
+ }
+#no{
+    position: absolute;
+    top:765px;
+    left:190px;
+    
+}  
+button {
+    font-family: 'Press Start 2P', cursive; ;
+    background: transparent;
+    color: aliceblue;
+    border: 0px; 
+    transition: background-color 0.3s ease;  
+}  
+button:before{
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.034);
+  transform: translateX(0);
+  transition: transform 0.1s ease-in;
+}
+button:hover:before {
+    transform: translateX(30px);
+  }
+button:hover {
+    background-color: rgba(255, 255, 255, 0.486);
+  cursor: pointer;
+ 
+  
+}
+
+
+
+div{
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
